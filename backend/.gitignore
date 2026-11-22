@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+data/choir.db
+data/assets/
+data/audio/
+data/uploads/
+data/work/
+data/samples/
+node_modules/
+frontend/dist/
+.DS_Store

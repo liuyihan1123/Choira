@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+lxml>=5.0
+verovio>=4.3   # 生成演示 PDF / 服务端 SVG；也用于 MusicXML → MIDI（声部音频）
+music21>=9.0  # 仅用于导出真实语料样例（可选）
+mido>=1.3     # 解析 Verovio 导出的 MIDI（声部音频）
+lameenc>=1.7  # 纯 Python MP3 编码，不需要 ffmpeg
+pytest>=8.0
+httpx>=0.27

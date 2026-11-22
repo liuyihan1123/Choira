@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# 运行时数据（可由 seed 与 tools 重新生成）
+backend/data/choir.db
+backend/data/assets/
+backend/data/audio/
+backend/data/uploads/
+backend/data/work/
+backend/data/samples/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
